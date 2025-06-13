@@ -1,14 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Poetsen+One&display=swap");
 
+@font-face {
+  font-family: "MyFont";
+  src: url("https://cdn.glitch.global/6b2888ea-715d-4d85-b6c6-3e32735d5691/NCLGaiaxDemo.ttf?v=1749779337914");
+  font-weight: normal;
+}
+
 html {
   background-color: white;
   padding-left: 20px;
 }
-
-img{
+body {
+  background-color: #f389b9;
+  font-family: cursive;
+}
+img {
   border-radius: 30px;
 }
 
 h1 {
   font-family: "Poetsen One", sans-serif;
+  color: white;
+}
+
+#DepecheMode {
+  color: gold;
+  font-size: 3em;
+  font-family: "Akaya Kanadaka", sans-serif;
+  font-weight: bold;
+}
+
+#TheCure {
+  font-family: "Delius", sans-serif;
+}
+#Grunge {
+  font-family: "MyFont", sans-serif;
+  font-size: 2em;
+}
+.highlight {
+  background-color: lightpink
 }
